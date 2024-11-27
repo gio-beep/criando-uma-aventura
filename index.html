@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em busca do templo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="img/biblioteca.png" alt="">
+            <p>Enquanto folheava um livro antigo na biblioteca, encontrei um mapa misterioso escondido entre as páginas. Ele parecia indicar o caminho dois caminhos para um local mistico cheio de segredos.</p>
+         
+        <button class="btn-proximo" data-proximo="1">Patagônia</button>
+        <button class="btn-proximo" data-proximo="2">Madagascar</button>
+
+        </div>
+
+        <div class="passo" id="passo-1">
+           <img src="img/cenario-montanha.png" alt="">
+            <p>Você começa sua jornada nas montanhas da Patagônia, enfrentando o frio cortante enquanto escala uma caverna escondida nas geleiras ao amanhecer, em busca da primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista na caverna</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/floresta.png" alt="">
+            <p>Em Madagascar, você explora a densa floresta tropical. O mapa indica que uma das pistas para encontrar a uma cidade perdida está escondida em um dos antigos templos esquecidos no coração da selva. Por qual local você começa sua busca?</p>
+            <button class="btn-proximo" data-proximo="5">investigar a floresta</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+
+        </div>
+       
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-caverna.png" alt="">
+
+            <p>Ao explorar seu interior, voce encontra marcas antigas nas paredes. Elas pareciam ser um código ou um aviso, mas, além disso, apontavam claramente para um novo destino: a Floresta Amazônica.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a floresta amazonica</button>
+            </div>
+
+
+            <div class ="passo" id="passo-4">
+                <img src="img/cenario-casa.png" alt="">
+                <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+
+            </div>
+
+            <div class="passo" id="passo-5">
+                <img src="img/cenario-altar.png" alt="">
+                <p>Em um altar escondido havia um artefato brilhante que carregava coordenadas misteriosas, apontando para o próximo destino: a Floresta Amazônica.</p>
+                <button class="btn-proximo" data-proximo="7">Viajar para a Floresta Amazônica</button>
+            </div>
+
+            <div class="passo" id="passo-6" >
+                <img src="img/cenario-caverna-sem-saida.png" alt="">
+                <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+                <button class="btn-proximo" data-proximo="8">Voltar a floresta e investigar</button>
+            
+            </div>
+
+            <div class="passo" id="passo-7" >
+                <img src="img/cenario-rio.png" alt="">
+            <p>na floresta amazonica voce se depara com um rio bifurcado</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+
+            </div>
+
+            <div class="passo" id="passo-8">
+                <img src="img/cenario-altar.png" alt="">
+                <p>De volta a floresta, você finalmente um altar escondido que carregava coordenadas misteriosas. Agora, para a Floresta Amazônica!</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para a  Floresta Amazônica</button>
+            </div>
+
+            <div class="passo" id="passo-9">
+                <img src="img/cenario-templo.png" alt="">
+                <p>O curso do rio o levou a um local com inscrições antigas. Ali, você descobriu a entrada de um templo escondido no meio da selva.</p>
+                <button class="btn-proximo" data-proximo="11">Explorar o templo</button>
+            </div>
+           
+            <div class="passo" id="passo-10" >  
+                 
+        
+                <p>Você enfrentou pântanos traiçoeiros, mas, infelizmente, não encontrou nada útil naquele caminho.</p>
+                <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+
+            <p>Dentro do templo, você se deparou com enigmas complexos. Foi necessário usar toda a sua criatividade e determinação para resolvê-los. Ao final, você descobriu um artefato brilhante que revelou um segredo ancestral</p>
+            <button class="btn-proximo" data-proximo="13">Explorar mais profundamente</button>
+            <button class="btn-proximo" data-proximo="14">Proteger o segredo</button>
+        </div>
+         <div class="passo" id="passo-12">
+            <img src="img/cenario-rio.png" alt="">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a entrada de um templo escondido no meio da selva.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o templo</button>
+         </div>
+
+      <div class="passo" id="passo-13">
+        <p>Você escolhe explorar ainda mais os detalhes do templo e tentar desvendar mais enigmas, talvez encontrando mais pistas para a cidade perdida.</p>
+      </div>
+
+      <div class="passo" id="passo-14">
+        <p> Em vez de seguir adiante, você decide preservar o que descobriu e proteger o templo, impedindo que outras pessoas encontrem o que está escondido ali.</p>
+      </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+        
+        
+        
+        
+</body>
+</html>
+

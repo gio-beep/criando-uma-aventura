@@ -1,0 +1,44 @@
+body {   
+
+background-color: #75975e ;
+color: white;
+font-family: "Libre Baskerville", serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0;
+font-size: large;
+}
+
+button {
+
+
+background-color: #658354 ;
+color: white;
+font-family: "Libre Baskerville", serif;
+}
+
+.passo {
+
+    display: none;
+}
+
+.passo.ativo {
+
+display: block;
+
+}
+
+main {
+
+    text-align: center;
+max-width: 90%;
+
+}
+
+img {
+
+max-width: 90%;
+
+}
